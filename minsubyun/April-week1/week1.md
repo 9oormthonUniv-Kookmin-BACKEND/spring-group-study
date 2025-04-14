@@ -71,7 +71,7 @@
 
 ## Ch 4. 애플리케이션 구현 준비
 ### 애플리케이션 아키텍처
-![img_3.png](img_3.png)
+![img_4.png](img_4.png)
 
 #### 계층형 구조 사용
 - controller, web: 웹 계층
