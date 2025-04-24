@@ -83,5 +83,5 @@
 ## Ch 5. 회원 도메인 개발
 - `@Transactional` 을 통해 트랜잭션 설정 시, (readOnly = true)를 쓰면 스프링 자체적으로 최적화를 조금 해준다.
 다만, 쓰거나 수정하는 종류의 메서드에 쓰지 않도록 주의하자.
-- `@RequiredArgsConstructor` final에 있는 필드만 가지고 생성자를 만들어 준다.
+- `@RequiredArgsConstructor` 는 final에 있는 필드만 가지고 생성자를 만들어 준다.
 
