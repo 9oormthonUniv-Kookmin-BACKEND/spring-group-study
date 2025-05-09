@@ -45,6 +45,8 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
+apply from: 'querydsl.gradle'
+
 tasks.named('test') {
     useJUnitPlatform()
 }

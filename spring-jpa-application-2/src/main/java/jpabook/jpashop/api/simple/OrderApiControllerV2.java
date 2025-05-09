@@ -1,8 +1,7 @@
-package jpabook.jpashop.api;
+package jpabook.jpashop.api.simple;
 
+import jpabook.jpashop.api.MemberApiControllerV2;
 import jpabook.jpashop.domain.Order;
-import jpabook.jpashop.domain.OrderItem;
-import jpabook.jpashop.domain.item.Item;
 import jpabook.jpashop.repository.OrderRepository;
 import jpabook.jpashop.repository.OrderSearch;
 import lombok.Data;
@@ -13,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RequestMapping("/api/v2/orders")
+@RequestMapping("/api/simple/v2/orders")
 @RestController
 @RequiredArgsConstructor
 public class OrderApiControllerV2 {

@@ -1,4 +1,4 @@
-package jpabook.jpashop.api;
+package jpabook.jpashop.api.simple;
 
 import jpabook.jpashop.domain.Order;
 import jpabook.jpashop.repository.OrderRepository;
@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * xToOne 관계에서의 성능 최적화
  */
-@RequestMapping("/api/v1/orders")
+@RequestMapping("/api/simple/v1/orders")
 @RestController
 @RequiredArgsConstructor
 public class OrderApiControllerV1 {

@@ -1,5 +1,6 @@
 spring:
   datasource:
+#    url: jdbc:h2:E:\User\Workspace\etc\jpashop # Windows
     url: jdbc:h2:tcp://localhost/~/../User/workspace/etc/jpashop
     username: sa
     password:
@@ -14,7 +15,9 @@ spring:
         format_sql: true
         highlight_sql: true
         use_sql_comments: true
-        default_batch_fetch_size: 1000 #최적화 옵션
+        default_batch_fetch_size: 1000 # 지연 로딩 최적화 위해
+        query.in_clause_parameter_padding: true
+    open-in-view: false
 
 
 logging.level:
